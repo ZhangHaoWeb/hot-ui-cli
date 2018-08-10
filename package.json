@@ -1,6 +1,6 @@
 {
   "name": "yunniao-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "the yn-ui cli",
   "main": "app.js",
   "bin": {
