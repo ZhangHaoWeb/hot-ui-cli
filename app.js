@@ -1,4 +1,4 @@
-#!/user/bin/env node
+#!/usr/bin/env node --harmony
 
 const fs = require('fs');
 const program = require('commander');
