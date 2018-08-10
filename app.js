@@ -48,7 +48,7 @@ program
                 }
             ]).then(answer => {
                 // TODO answer 项目描述
-                const spinner = ora('正在下载模板...');
+                const spinner = ora('downloading...');
                 spinner.start();
                 download('http://dev.xunhuji.me:17990:scm/beeper/beeper_ydcms', name, {clone: true}, err => {
                     if (err) {
@@ -67,7 +67,9 @@ program
                             const result = handlebars.compile(content)(meta);
                             fs.writeFileSync(fileName, result);
                         }
-                        console.log(symbols.success, chalk.green('项目初始化完成'));
+                        console.log(symbols.success, chalk.green('success,I guess you want:'));
+                        console.log(chalk.green.bold(`cd ${name}`));
+                        console.log(chalk.green.bold('npm install'));
                     }
                 })
             })
