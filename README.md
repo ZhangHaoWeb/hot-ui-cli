@@ -1,7 +1,7 @@
 # zh-cli
 
 使用方式
-npm install yn-cli -g
+npm install yunniao-cli -g
 
 初始化项目
-yn init <project name>
+yunniao init <project-name>
