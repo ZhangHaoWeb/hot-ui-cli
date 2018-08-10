@@ -11,7 +11,7 @@ const handlebars = require('handlebars');
 
 
 program
-    .version('zh-cli 1.0.0', '-v, --version')
+    .version('zh-cli 1.0.2', '-v, --version')
     .option('-w, --watch', 'watch files change')
     .command('init <name>')
     .action(name => {
