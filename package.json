@@ -1,10 +1,10 @@
 {
-  "name": "yn-cli",
+  "name": "yunniao-cli",
   "version": "1.0.0",
   "description": "the yn-ui cli",
   "main": "app.js",
   "bin": {
-    "yn": "app.js"
+    "yunniao": "app.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
   "keywords": [
     "vue",
     "yunniao-ui",
-    "yn-cli",
+    "yunniao-cli",
     "commander",
     "node"
   ],
