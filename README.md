@@ -1,7 +1,7 @@
-# hot-ui-cli
+# share-cli
 
 使用方式
-npm install hot-ui-cli -g
+npm install share-cli -g
 
 初始化项目
-hot init <project-name>
+share init <project-name>
